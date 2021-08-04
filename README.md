@@ -1,2 +1,2 @@
 # django_course
-Repositrie to practice with the Framework Django
+Repository to practice with the Framework Django
