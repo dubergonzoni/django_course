@@ -1,10 +1,6 @@
 name: Python application
 
-on:
-  pull_request:
-  push:
-    branches:
-      - master
+on:  [pull_request]
 
 jobs:
   build:
@@ -40,7 +36,7 @@ jobs:
         pipenv run flake8 .
     - name: Test with pytest
       run: |
-        pipenv run pytest pythonpro --cov=pythonpro
+        pipenv run pytest pypro
     - name: Posting Coverage
       env:
         CODECOV_TOKEN: "0ad9c4b2-05bd-4be9-b0db-a3722c9da4d4"

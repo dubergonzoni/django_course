@@ -1,2 +1,3 @@
 DEBUG=False
+DATABASE_URL=postgres://postgres:postgres@localhost/postgres
 # Extra configurations will be added during the course
